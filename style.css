@@ -31,3 +31,27 @@ body {
   font-size: 2.5em;
   font-weight: normal;
 }
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input-group label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+.input-group input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsl(201, 100%, 6%);
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+.input-group input:focus {
+  border: 1px solid hsl(201, 100%, 50%);
+}
